@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container"> 
+            <a class="navbar-brand fw-bold" href="#"><img src="./assets/Images/H.E.D-Photoroom.png" alt="" srcset=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#projectsModal">Projects</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#servicesModal">Services</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                    
+                        <a class="nav-link fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-3">
+                    <input class="search-input form-control me-2" type="search" placeholder="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <a class="nav-link fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#projectsModal"></a>
+<div class="modal fade" id="projectsModal" tabindex="-1" aria-labelledby="projectsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectsModalLabel">My Projects</h5>
+                <button type="button" class="btn-close fw-bold" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Here are some of the projects I have worked on, showcasing my expertise in various fields.</p>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./assets/Images/management.jpeg" class="card-img-top" alt="Project 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Project Management Tool</h5>
+                                <p class="card-text">A comprehensive platform for safeguarding client accounts and ensuring compliance.
+                                     Our solution integrates advanced security measures.
+                                     , and regulatory adherence to protect sensitive information.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./assets/Images/unveiling.jpg" class="card-img-top" alt="Project 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Sports Analytics Platform</h5>
+                                <p class="card-text">A data-driven approach to enhance sports performance and management 
+                                    and Partnership with champions.incharged with negotiation with Enugu Rangers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./assets/Images/dashboard.jpeg" class="card-img-top" alt="Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Data Analytics Dashboard</h5>
+                                <p class="card-text">A powerful dashboard for data visualization and decision-making.
+                                    I excel at organizing, analyzing, and visualizing data efficiently. From advanced formulas 
+                                    to streamline workflows and drive data-driven insights.
+                                     I bring precision and efficiency to every spreadsheet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./assets/Images/kyc.jpg" class="card-img-top" alt="Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title">KYC Compliance System</h5>
+                                <p class="card-text">A secure and efficient system for verifying customer identities with Bitnob.</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="servicesModal" tabindex="-1" aria-labelledby="servicesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="servicesModalLabel">My Services</h5>
+                <button type="button" class="btn-close fw-bold" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>I provide expert consultations across various domains to help you navigate challenges, optimize strategies, and achieve your goals.</p>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>🔹 Project Management Consultation:</strong> Streamline your projects for efficiency, 
+                        risk mitigation, and timely delivery.</li>
+                    <li class="list-group-item"><strong>🔹 Compliance Advisory:</strong> Stay ahead
+                         of regulations with expert guidance on legal, financial, and operational compliance.</li>
+                    <li class="list-group-item"><strong>🔹 Data Analysis & Insights:</strong> Unlock the power of data with in-depth analysis, visualization, and actionable insights.</li>
+                    <li class="list-group-item"><strong>🔹 Sports Consultation:</strong> Get strategic
+                         advice on performance improvement, management, and branding in the sports industry.</li>
+                    <li class="list-group-item"><strong>🔹 General Business Strategy:</strong> Receive expert guidance on business growth, branding, and operational efficiency.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary fw-bold" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="contactForm" action="https://formspree.io/f/mzzdnkwp" method="POST">
+                        <div class="row mb-3">
+                            <div class="col-md-6 col-12 mb-3">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 col-12 mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-contact">Send Message</button>
+                        <p id="formResponse" class="mt-3 text-success" style="display:none;"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+               
+                <div class="col-lg-6 text-center text-lg-start hero-text">
+                    <h1 class="display-4 fw-bold">Welcome to My Portfolio</h1>
+                    <p class="lead">I'm a passionate project manager bringing ideas to life with creativity and innovation.</p>
+                    <button type="button" class="btn btn-cta mt-3 fw-bold" data-bs-toggle="modal" data-bs-target="#resumeModal">
+                        Hire Me
+                    </button>
+                    
+                </div>
+                <div id="resumeModal" class="modal fade" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content" style="background: linear-gradient(to right, #030e00, #2e0603, #010000); color: white;">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Curriculum Vitae</h5>
+                                <button type="button" class="btn-close fw-bold" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2>HABILA, EMMANUEL DANIEL</h2>
+                                <p><strong>Address:</strong> Mista Ali before Jos NNPC Depot, Plateau State</p>
+                                <p><strong>Phone:</strong> 07039104187, 09042785792</p>
+                                <p><strong>Email:</strong> emmanuelshing8@gmail.com</p>
+                                <hr>
+                                <h4>PROFILE</h4>
+                                <p>I am a highly organized, results-driven, and self-motivated professional with strong analytical and problem-solving abilities...</p>
+
+                                <h4>KEY SKILLS</h4>
+                                <ul>
+                                    <li>Workload Management</li>
+                                    <li>Presentation Skills</li>
+                                    <li>Communication</li>
+                                    <li>Motivational Leadership</li>
+                                    <li>Technical Proficiency</li>
+                                </ul>
+                
+                                <h4>PROFESSIONAL EXPERIENCE</h4>
+                                <p><strong>AC Midlands Football Club – Team Manager (Sept 2022 - Present)</strong></p>
+                                <ul>
+                                    <li>Manage day-to-day team operations...</li>
+                                </ul>
+                
+                                <p><strong>Bitnob – Ad Hoc Staff, Legal and Compliance (March 2023 - Present)</strong></p>
+                                <ul>
+                                    <li>Conducted KYC verification...</li>
+                                </ul>
+                
+                                <h4>EDUCATION</h4>
+                                <p><strong>Bachelor of Science (BSc) - University of Jos (2024)</strong></p>
+                
+                                <h4>CERTIFICATES</h4>
+                                <ul>
+                                    <li>Diploma in Computer Application</li>
+                                    <li>Compliance Management (Udemy, 2024)</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary fw-bold" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center hero-img">
+                    <img src="./assets/Images/hero image.png" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-me-section py-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-lg-start">
+                    <h3 class="fw-bold">I'm Emmanuel H. Daniel</h3>
+                    <p class="lead">A passionate Project Manager with experience in Compliance, Data Analysis (Excel, Word).</p>
+                    <p>I am a dedicated and results-driven professional with expertise in Project Management, Sports Management,
+                         Compliance, and Data Analysis. With a strong background in team leadership, regulatory compliance, and 
+                         performance optimization, I thrive on solving complex challenges and driving strategic success.
+                        From managing football teams to ensuring compliance in financial operations, I excel at organizing,
+                         analyzing, and improving systems to enhance efficiency and productivity. My ability to lead teams, 
+                         analyze data, and implement compliance measures makes me a valuable asset in any dynamic environment.
+                        I am passionate about continuous learning and innovation, always seeking new ways to create impactful solutions.
+                         Let’s connect and collaborate on exciting opportunities! 
+                         When I’m not working, I enjoy watching football, traveling, and meeting new people.    
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="./assets/Images/about me.jpg" alt="About Me Image" class="img-fluid rounded  rounded-5">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills-section py-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">My Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h4>Excel</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Microsoft Word</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">98%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>KYC Compliance Tools</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>SQL</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Graphic Design</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>Power Point</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-section py-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">My Gallery</h2>
+            <div class="row g-4">
+            
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/new comp.jpeg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title"> Compliance</h5>
+                            <p class="card-text">Vast Knowledge on Compliance.Working with Bitnob Compliance Department since 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/cup.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title"> NPFL Sponsorship</h5>
+                            <p class="card-text">My Employer (Bitnob) is a Proud sponsor of the Nigeria professional football league and sponsors of other teams</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/products.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Advertising</h5>
+                            <p class="card-text">Always promoting Bitnob, and giving out professional advice on why people should sign up with Bitnob.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/hangout.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Bitnob Hangout</h5>
+                            <p class="card-text">A memorable day to cherish—hanging out with my colleagues as we explored the beautiful scenery of Zuma Rock.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/table.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Nationwide League One</h5>
+                            <p class="card-text">As a proud manager of AC Midland, I can confidently commend them for topping their table in the recently concluded NLO.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/teamA.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Ac MIdland Team A</h5>
+                            <p class="card-text">AC Midland ,a disciplined team with exceptional teamwork, the pride of Plateau State,
+                                 and the fastest-growing team in Nigeria and Africa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/airtable.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Airtable Database</h5>
+                            <p class="card-text">Using Airtable has been a game-changer for keeping track of our players.
+                                 The app allows me to efficiently create detailed player profiles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/propel fc.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Propel FC</h5>
+                            <p class="card-text"> P.F.C was the first team I worked with, and the success
+                                 we achieved paved the way for the birth of another team, AC Midland.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/SQL.jpeg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Structured Query Language Expert</h5>
+                            <p class="card-text">With extensive experience in SQL, I specialize in designing,
+                                 optimizing, and managing databases efficiently. 
+                                From crafting complex queries to ensuring data integrity and performance tuning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/excel.jpeg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Excel Expert</h5>
+                            <p class="card-text">With deep expertise in Excel, I excel at organizing, 
+                                analyzing, and visualizing data efficiently. 
+                                From advanced formulas and pivot tables to automation with macros and Power Query, 
+                                I bring precision and efficiency to every spreadsheet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/award.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Departmental Award</h5>
+                            <p class="card-text">I am truly grateful to receive this prestigious award from my department. 
+                                This recognition is a testament to my dedication, hard work, and passion for excellence.
+                                 I extend my appreciation to my colleagues, and mentors.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card project-card">
+                        <img src="./assets/Images/unveiling.jpg" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Enugu Rangers Partnership</h5>
+                            <p class="card-text">The official unveiling ceremony showcased our
+                                 commitment to building a stronger, more competitive team while 
+                                 fostering new opportunities for development and new.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section py-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="contactForm" action="https://formspree.io/f/mzzdnkwp" method="POST">
+                        <div class="row mb-3">
+                            <div class="col-md-6 col-12 mb-3">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 col-12 mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-contact">Send Message</button>
+                        <p id="formResponse" class="mt-3 text-success" style="display:none;"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer-section py-4">
+        <div class="container text-center">
+            <p class="footer-text mb-0">© 2025 Your Name. All Rights Reserved.</p>
+            <div class="social-icons mt-2">
+                <a href="https://www.facebook.com/share/1D29vSE7yF/" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/Emmanueldanz?t=MEh6V-E7m4dyIrUHmWgKcg&s=09" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/emmanueldanz?igsh=dGc4Y3podWt4ZzZo" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-h-daniel-4a0b0512b/" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
